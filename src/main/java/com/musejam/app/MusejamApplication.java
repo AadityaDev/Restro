@@ -19,18 +19,18 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 @Configuration
 @SpringBootApplication
 @EnableAsync
-public class DemoApplication extends SpringBootServletInitializer {
+public class MusejamApplication extends SpringBootServletInitializer {
 
 	@Autowired
 	private static Environment environment;
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(MusejamApplication.class, args);
 	}
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-		return builder.sources(DemoApplication.class);
+		return builder.sources(MusejamApplication.class);
 	}
 
 	@Bean

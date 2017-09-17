@@ -2,9 +2,7 @@ package com.musejam.app.constants;
 
 public enum MusejamErrors {
 
-    Exception(1011,"Exception"),
-    AMAZONERROR(599,"Error in storing file"),
-    CLOUDINARYERROR(598,"Error in uploading to cloudinary");
+    Exception(1011,"Exception");
 
     private final int code;
     private final String description;

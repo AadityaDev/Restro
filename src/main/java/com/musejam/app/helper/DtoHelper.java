@@ -136,6 +136,5 @@ public class DtoHelper {
 		userDto.setSex(user.getSex());
 		return userDto;
 	}
-	
 
 }

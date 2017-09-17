@@ -30,7 +30,7 @@ public class OrderItem {
     @Column(name="quantity")
 	private String quantity;
     @Column(name="discount")
-	private transient double discount;
+	private double discount;
     @Column(name="add_on_item_id")
 	private long extraItem;
 
